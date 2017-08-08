@@ -1,0 +1,23 @@
+{
+  "name": "kadal.js",
+  "version": "1.0.0",
+  "description": "Plugin Jquery yang untuk menampilkan gambar gambar kadal yang keren",
+  "main": "kadal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dionarya6661/kadal.js.git"
+  },
+  "keywords": [
+    "Jquery",
+    "Plugin"
+  ],
+  "author": "Dion Arya Pamungkas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dionarya6661/kadal.js/issues"
+  },
+  "homepage": "https://github.com/dionarya6661/kadal.js#readme"
+}
