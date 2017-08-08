@@ -16,15 +16,18 @@ npm install kadal.js
 
 Atau anda juga bisa menggunakan seperti ini menggunakan tag script biasa, contoh:
 
-`````
+
+```
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
 <script src="kadal.js"></script>
-````
+```
+
 Anda Bisa mendapatkan Kadal.JS di cdn berikut:<br>
 <code>https://dionarya6661.github.io/kadal.js</code>
 
 ### Cara Menggunakan
 Siapkan terlebih dahulu file-file yang sudah disebutkan diatas yaitu jquery.min.js dan kadal.js :<br>
+
 ````
 <div id="idnya"></div>
 
@@ -46,6 +49,7 @@ Anda juga bisa menampilkan lebih dari satu gambar kadal misal anda ingin menampi
 * Perlu diketahui hanya ada 21 gambar kadal yang hanya bisa ditampilkan
 
 Contoh menampilkan 10 gambar kadal:
+
 ```
 <div id="idnya"></div>
 
