@@ -10,14 +10,14 @@ Plugin ini di buat oleh Dion Arya Pamungkas, Alasan saya membuat plugin yang abs
 ## Instalasi
 Untuk bisa memakai plugin ini anda membutuhkan jquery terlebih dahulu bebas versi berapa aja, dan anda bisa meng-install kadal.js lewat NPM jika komputer anda sudah terpasang node.js dengan cara ketik di command line :<br>
 
-````
+```
 npm install kadal.js
-````
+```
 
 Atau anda juga bisa menggunakan seperti ini menggunakan tag script biasa, contoh:
 
 
-```
+```javascript
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
 <script src="kadal.js"></script>
 ```
@@ -28,7 +28,7 @@ Anda Bisa mendapatkan Kadal.JS di cdn berikut:<br>
 ### Cara Menggunakan
 Siapkan terlebih dahulu file-file yang sudah disebutkan diatas yaitu jquery.min.js dan kadal.js :<br>
 
-````
+```html
 <div id="idnya"></div>
 
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
@@ -42,15 +42,14 @@ $(document).ready(function(){
 </script>
 ```
 maka akan akan telihat seperti Ini:
-
-<img src="https://image.ibb.co/eJ4rMa/capture_20170808_153835.png" width="320" height="200">
+![alt text](https://image.ibb.co/eJ4rMa/capture_20170808_153835.png "Kadal")
 
 Anda juga bisa menampilkan lebih dari satu gambar kadal misal anda ingin menampilkan 10 Gambar kadal,
 * Perlu diketahui hanya ada 21 gambar kadal yang hanya bisa ditampilkan
 
 Contoh menampilkan 10 gambar kadal:
 
-```
+```html
 <div id="idnya"></div>
 
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
@@ -68,7 +67,7 @@ $(document).ready(function(){
 ```
 
 Dan untuk mempercantik gambar kadal anda bisa menambahkan framework css bootstrap pada web anda, seperti ini : <br>
-```
+```javascript
   $('#idnya').kadal({
     JumlahKadal: 10,
     Bootstrap: true
