@@ -55,7 +55,7 @@ Contoh menampilkan 10 gambar kadal:
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
 <script src="kadal.js"></script>
 
-//anda hanya perlu menambahkan {JumlahKadal: 10}
+<!--anda hanya perlu menambahkan {JumlahKadal: 10}-->
 <script>
 $(document).ready(function(){
   $('#idnya').kadal({
